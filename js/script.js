@@ -1,10 +1,12 @@
 const boyNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 const girlNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+const dayOfBirth = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 function findName (){
     //declaring variables and assigning them value from the user's input
     var yearOfBirth = document.getElementById("year").value;
     var monthOfBirth = document.getElementById("month").value;
     var dateOfBirth = document.getElementById("day").value; 
+    var gender = document.getElementByName("gender").value
     //parsing user input to integers
     var yy = parseInt(yearOfBirth);
     var mm = parseInt(monthOfBirth);
@@ -20,5 +22,12 @@ function findName (){
         alert("Please Enter a valid Month of birth");
     }else if (dd < 0 || dd > 31){
         alert("Please enter a valid Date of Birth");
+    }
+    //checking name based on day of birth
+    if (gender === "male"){
+        alert(`Your Akan name is ${boyNames[dayOfTheWeek]} because you were born on ${dayOfBirth[dayOfTheWeek]}.`)
+    } 
+    else if (gender === "female"){
+        alert (`Your Akan name is ${girlNames[dayOfTheWeek]}`)
     }
 }
