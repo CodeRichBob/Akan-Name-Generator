@@ -12,5 +12,5 @@ function findName (){
     var cc = math.tranc(yy/100);
 
     //calculating day of the week
-    var dayOfTheWeek = 
+    var dayOfTheWeek = (((cc/4) - 2(cc-1) + ((5*yy/4)) + ((26*(mm+1)/10))+dd)%7
 }
