@@ -59,3 +59,13 @@ header {
   padding: 1rem;
   font-size: 1.3rem;
 }
+.btn-back {
+  height: 40px;
+  width: 100px;
+  padding: 7px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 8px;
+  background-color: #faa33a;
+  margin-left: 37%;
+}
