@@ -6,7 +6,7 @@ function findName (){
     var yearOfBirth = document.getElementById("year").value;
     var monthOfBirth = document.getElementById("month").value;
     var dateOfBirth = document.getElementById("day").value; 
-    var gender = document.getElementByName("gender").value;
+     var gender = document.querySelector('input[name="gender"]:checked').value;
     //parsing user input to integers
     var yearr = parseInt(yearOfBirth);
     var yy = parseInt(yearOfBirth.substr(2));
@@ -29,6 +29,6 @@ function findName (){
         alert(`Your Akan name is ${boyNames[dayOfTheWeek]} because you were born on ${dayOfBirth[dayOfTheWeek]}.`);
     } 
     else if (gender === "female"){
-        alert (`Your Akan name is ${girlNames[dayOfTheWeek]}`);
+        alert (`Your Akan name is ${girlNames[dayOfTheWeek]} because you were born on ${dayOfBirth[dayOfTheWeek]}`);
     }
 }
