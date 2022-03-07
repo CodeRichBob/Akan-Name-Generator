@@ -53,3 +53,7 @@ header {
   margin-top: -10px;
   background-color: #faa33a;
 }
+.input-field {
+  text-align: center;
+  margin-left: 15px;
+}
