@@ -14,7 +14,7 @@ https://github.com/CodeRichBob/Akan-Name-Generator.git
 
 ## Screenshot
 
-​
+​<img src="https://github.com/CodeRichBob/Akan-Name-Generator/blob/master/images/screenshot.png" width="900px" height="440px">
 
 ​
 
