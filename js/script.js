@@ -19,8 +19,10 @@ function findName (){
     // adding some validation
     if(yearr<1000 || yearr > 2022){
         alert("Please enter a valid Year of Birth");
+        return;
     }else if (mm<=0 || mm > 12 || mm == 2 && dd > 29){
         alert("Please Enter a valid Month of birth");
+        return;
     }else if (dd <= 0 || dd > 31){
         alert("Please enter a valid Date of Birth");
     }
