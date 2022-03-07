@@ -14,8 +14,7 @@ h1 {
   display: flex;
 }
 .description {
-  margin-top: 30px;
-  margin-left: 10%;
+  margin-left: 5%;
   font-size: 1.7rem;
 }
 .arrow {

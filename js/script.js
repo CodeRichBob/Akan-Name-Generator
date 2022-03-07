@@ -1,6 +1,6 @@
 var boyNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var girlNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-var dayOfBirth = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+//var dayOfBirth = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function findName (){
     //declaring variables and assigning them value from the user's input
     var yearOfBirth = document.getElementById("year").value;
