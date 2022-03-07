@@ -30,3 +30,27 @@ h1 {
   margin-top: -10px;
   background-color: #faa33a;
 }
+.art {
+  display: flex;
+}
+.form {
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+  margin-top: 10%;
+}
+header {
+  font-size: 4rem;
+  color: #344792;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-top: -10px;
+  background-color: #faa33a;
+}
